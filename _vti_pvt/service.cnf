@@ -9,11 +9,14 @@ CompanyPhone:SW|617-555-1212
 vti_publishmetainfokeys:VR|vti_assignedto vti_approvallevel vti_categories vti_description
 vti_navbuttonnextlabel:SR|Next
 CompanyWebmaster:SW|someone@microsoft.com
-vti_textindexood:IR|0
+vti_textindexood:IR|1
 vti_approvallevels:VR|Approved Denied Pending\\ Review
 vti_themedefault:SR|profile 000
 vti_borderdefault:SR|tlb
 vti_hassearchbot:BR|true
+vti_navbuttonhomelabel:SR|Home
+CompanyLongName:SW|ACME Industries Inc.
+vti_dependenciesood:IR|0
 vti_featurelist:VX|vti_ACAll vti_ServiceMarkUrlDirBrowse vti_ServiceMarkUrlDirExec vti_ServiceMarkUrlDirScript vti_ACIPAddresses vti_ServerEmailTransport vti_ServerIndexServer vti_ServerASP vti_ServerCollab vti_TimedDocEvents
 vti_categories:VR|Travel Expense\\ Report Business Competition Goals/Objectives Ideas Miscellaneous Waiting VIP In\\ Process Planning Schedule
 CompanyAddress:SW|123 Web Way, Cambridge MA 02138
@@ -31,6 +34,3 @@ vti_extenderversion:SR|5.0.2.2623
 vti_ignorekeyboard:IR|0
 vti_navbuttonprevlabel:SR|Back
 CompanyFAX:SW|617-555-1212
-vti_navbuttonhomelabel:SR|Home
-CompanyLongName:SW|ACME Industries Inc.
-vti_dependenciesood:IR|0
