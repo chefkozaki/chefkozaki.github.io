@@ -1,0 +1,13 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|04 Sep 2023 10:30:42 -0000
+vti_extenderversion:SR|5.0.2.2623
+vti_nosourcecontrol:SR|True
+vti_author:SR|ADMIN-PC\\Admin
+vti_modifiedby:SR|ADMIN-PC\\Admin
+vti_nexttolasttimemodified:TR|04 Sep 2023 10:30:42 -0000
+vti_timecreated:TR|04 Sep 2023 10:30:42 -0000
+vti_timelastindexed:TW|04 Sep 2023 10:30:42 -0000
+vti_lineageid:SR|{0B7C8DB9-B0C5-46CD-98D7-8E2BAC4EDB95}
+vti_cacheddtm:TX|04 Sep 2023 10:30:42 -0000
+vti_filesize:IR|0
+vti_backlinkinfo:VX|feedback.htm

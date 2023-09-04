@@ -1,0 +1,71 @@
+.mstheme
+{
+	nav-banner-image: url(probanr.gif);
+	separator-image: url(prorule.gif);
+	list-image-1: url(probul1.gif);
+	list-image-2: url(probul2.gif);
+	list-image-3: url(probul3.gif);
+	navbutton-horiz-pushed: url(prohsel.gif);
+	navbutton-horiz-normal: url(prohbtn.gif);
+	navbutton-vert-pushed: url(provsel.gif);
+	navbutton-vert-normal: url(provbtn.gif);
+	navbutton-home-normal: url(prohom.gif);
+	navbutton-up-normal: url(proup.gif);
+	navbutton-prev-normal: url(probck.gif);
+	navbutton-next-normal: url(pronxt.gif);
+}
+.mstheme-bannertxt
+{
+	font-family: trebuchet ms, Arial, Helvetica;
+	font-size: 6;
+	vertical-align: top;
+	color: rgb(0,0,0);
+}
+.mstheme-horiz-navtxt
+{
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-vert-navtxt
+{
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxthome
+{
+	font-family: trebuchet ms, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtup
+{
+	font-family: trebuchet ms, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtprev
+{
+	font-family: trebuchet ms, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+.mstheme-navtxtnext
+{
+	font-family: trebuchet ms, Arial, Helvetica;
+	font-size: 1;
+	color: rgb(0,0,0);
+}
+UL
+{
+	list-style-image: url(probul1.gif);
+}
+UL UL
+{
+	list-style-image: url(probul2.gif);
+}
+UL UL UL
+{
+	list-style-image: url(probul3.gif);
+}
