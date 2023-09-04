@@ -1,0 +1,112 @@
+.version.index /* version checker */
+{
+	color: #0000E4;
+	background-color: #1DB850;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 187px;
+	min-height: 40px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 753px 440px 20px;
+}
+
+#buttonu118
+{
+	z-index: 2;
+	width: 187px;
+	border-color: #787878;
+	background-color: #308DFF;
+	border-radius: 10px;
+	padding-bottom: 9px;
+	position: relative;
+}
+
+#buttonu118:hover
+{
+	background-color: #545454;
+	width: 187px;
+	min-height: 0px;
+	margin: 0px;
+}
+
+#buttonu118.ButtonSelected
+{
+	background-color: #308DFF;
+	width: 187px;
+	min-height: 0px;
+	margin: 0px;
+}
+
+#u119-4
+{
+	z-index: 3;
+	width: 119px;
+	min-height: 23px;
+	background-color: transparent;
+	color: #3C3C3C;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 9px;
+	left: 34px;
+}
+
+#buttonu118:hover #u119-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 23px;
+	width: 119px;
+	margin: 9px -10000px 0px 0px;
+}
+
+#buttonu118.ButtonSelected #u119-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 23px;
+	width: 119px;
+	margin: 9px -10000px 0px 0px;
+}
+
+#buttonu118:hover #u119-4 p
+{
+	color: #FFFFFF;
+	visibility: inherit;
+}
+
+#buttonu118.ButtonSelected #u119-4 p
+{
+	color: #3C3C3C;
+	visibility: inherit;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
