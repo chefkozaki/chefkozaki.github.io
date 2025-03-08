@@ -1,157 +1,61 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robin Discord Bot</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            text-align: center;
-        }
-        .links {
-            margin-bottom: 20px;
-        }
-        .links a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: blue;
-        }
-        .links a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
-
-
-<body>
-    <div class="links">
-        <a href="#terms">Terms of Service</a>
-        <a href="#privacy">Privacy Policy</a>
-    </div>
-    <div class="container" style="margin-left: 0;">
-        <h1>Chào mừng đến với Trang thông tin của Robin!</h1>
-        <p>Con Bot Discord Gacha đầu tiên tại làng Diêm!</p>
-        <p>Hãy khám phá và tận hưởng những tính năng tuyệt vời mà nó mang lại!</p>
-        <h2 id="terms">Terms of Service</h2>
-<p>**Điều Khoản Dịch Vụ**<br>
-
-**1. Giới thiệu**<br>
-
-Chào mừng bạn đến với dịch vụ của chúng tôi. Bằng việc sử dụng bot này, bạn đồng ý tuân thủ các điều khoản và điều kiện sau đây.<br>
-
-
-**2. Sử Dụng Dịch Vụ**<br>
-
-- Bạn phải từ 13 tuổi trở lên để sử dụng dịch vụ.<br>
-
-- Không sử dụng bot cho mục đích bất hợp pháp hoặc vi phạm quy định pháp luật.<br>
-
-- Không được lạm dụng, tấn công hoặc gây gián đoạn dịch vụ.<br>
-
-
-**3. Quyền và Trách Nhiệm**<br>
-
-- Chúng tôi có quyền thay đổi hoặc ngừng cung cấp dịch vụ bất kỳ lúc nào mà không cần thông báo trước.<br>
-
-- Chúng tôi không chịu trách nhiệm về bất kỳ thiệt hại nào phát sinh từ việc sử dụng bot.<br>
-
-
-**4. Bảo Mật và Quyền Riêng Tư**<br>
-
-- Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn theo chính sách bảo mật.<br>
-
-- Người dùng không được thu thập hoặc lạm dụng dữ liệu từ bot mà không có sự đồng ý của chúng tôi.<br>
-
-
-**5. Thay Đổi Điều Khoản**<br>
-
-- Chúng tôi có quyền thay đổi điều khoản bất kỳ lúc nào. Việc tiếp tục sử dụng bot sau khi điều khoản thay đổi đồng nghĩa với việc bạn chấp nhận các điều khoản mới.<br>
-
-
-**6. Liên Hệ**<br>
-
-Nếu bạn có bất kỳ câu hỏi nào về Điều Khoản Dịch Vụ, vui lòng liên hệ với chúng tôi qua email hoặc kênh hỗ trợ chính thức.<br>
-
-
-</p>
-        <h2 id="privacy">Privacy Policies</h2>
-<p>Chính Sách Bảo Mật<br>
-
-
-1. Giới thiệu<br>
-
-Chúng tôi cam kết bảo vệ quyền riêng tư và dữ liệu cá nhân của bạn khi sử dụng bot này. Chính sách này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn.<br>
-
-
-2. Thông Tin Chúng Tôi Thu Thập<br>
-
-
-Dữ liệu bạn cung cấp khi sử dụng bot (ví dụ: tin nhắn, phản hồi).<br>
-
-
-Thông tin thiết bị và nhật ký sử dụng (ví dụ: loại thiết bị, địa chỉ IP, thời gian truy cập).<br>
-
-
-3. Cách Chúng Tôi Sử Dụng Thông Tin<br>
-
-
-Cung cấp, duy trì và cải thiện dịch vụ.<br>
-
-
-Phân tích dữ liệu để nâng cao trải nghiệm người dùng.<br>
-
-
-Đảm bảo an toàn và bảo mật cho dịch vụ.<br>
-
-
-4. Chia Sẻ Thông Tin
-
-Chúng tôi không bán hoặc chia sẻ thông tin cá nhân của bạn với bên thứ ba, trừ khi có yêu cầu pháp lý.<br>
-
-
-Dữ liệu có thể được chia sẻ với các đối tác dịch vụ hỗ trợ vận hành bot nhưng vẫn tuân thủ chính sách bảo mật.<br>
-
-
-5. Bảo Mật Dữ Liệu
-
-Chúng tôi áp dụng các biện pháp bảo mật phù hợp để bảo vệ thông tin của bạn khỏi truy cập trái phép.<br>
-
-
-Tuy nhiên, không có hệ thống nào an toàn tuyệt đối, vì vậy bạn cũng cần bảo vệ thông tin cá nhân của mình.<br>
-
-
-6. Quyền Của Người Dùng
-
-Bạn có quyền yêu cầu truy cập, chỉnh sửa hoặc xóa dữ liệu cá nhân của mình.<br>
-
-
-Nếu bạn muốn dừng sử dụng dịch vụ và yêu cầu xóa dữ liệu, vui lòng liên hệ với chúng tôi.<br>
-
-
-7. Thay Đổi Chính Sách<br>
-
-
-Chúng tôi có thể cập nhật chính sách bảo mật theo thời gian. Bất kỳ thay đổi nào sẽ được thông báo trên nền tảng chính thức.<br>
-
-
-8. Liên Hệ<br>
-
-Nếu bạn có câu hỏi về Chính Sách Bảo Mật, vui lòng liên hệ với chúng tôi qua email hoặc kênh hỗ trợ chính thức.<br>
-
-
-</p>
+<body class="flex flex-col items-center p-10 font-sans text-gray-900">
+    <header class="text-center mb-10">
+        <div class="w-10 h-10 bg-black rounded-full mb-4"></div>
+        <h1 class="text-3xl font-semibold">Robin (Verified Bot)</h1>
+        <p class="text-gray-600 mt-2">Con Bot Gacha nghiện nhất Làng Diêm<a href="#" class="text-blue-500">Start here</a>.</p>
+    </header>
+    
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-10 text-left">
+        <div>
+            <h2 class="font-semibold mb-2">Introduction</h2>
+            <ul class="space-y-1">
+                <li>⭐ <a href="./getting-started.html" class="text-blue-500">Getting Started</a></li>
+                <li>✍️ <a href="./author.html" class="text-blue-500">Author</a></li>
+                <li>❔ <a href="./faq.html" class="text-blue-500">FAQs</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <h2 class="font-semibold mb-2">Get Started</h2>
+            <ul class="space-y-1">
+                <li>📜 <a href="./command.html" class="text-blue-500">App Basics Commands</a></li>
+                <li>🛠️ <a href="./collab.html" class="text-blue-500">Collaboration</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <h2 class="font-semibold mb-2">Sharing (Nothing yet) </h2>
+            <ul class="space-y-1">
+                <li>🔗 <a href="#" class="text-blue-500">Sharing Projects</a></li>
+                <li>🔒 <a href="#" class="text-blue-500">Project Permissions</a></li>
+                <li>❤️ <a href="#" class="text-blue-500">Inviting People</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <h2 class="font-semibold mb-2">Motion(Nothing yet)</h2>
+            <ul class="space-y-1">
+                <li>🎥 <a href="#" class="text-blue-500">Motion</a></li>
+                <li>🎬 <a href="#" class="text-blue-500">Interactions</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <h2 class="font-semibold mb-2">More</h2>
+            <ul class="space-y-1">
+                <li>📢 <a href="./changelog.html" class="text-blue-500">Bot Changelog</a></li>
+                <li>📺 <a href="./server-list.html" class="text-blue-500">Discord Server List</a></li>
+                <li>👥 <a href="./server-list.html" class="text-blue-500">Join Community</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
